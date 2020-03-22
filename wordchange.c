@@ -3,16 +3,16 @@
 #include<string.h>
 void main()
 {
-  int p,q,i;
+  int n,r,i;
   char arr[100];
   printf("Enter the character:");
   scanf("%s",arr);
   n=strlen(arr);
   if(n%2!=0)
   {
-    q=p-1;
-    arr[q]='O';
-    arr[q-1]='O';
+    r=n-1;
+    arr[r]='O';
+    arr[r-1]='O';
   }
   for(i=0;i<n;i++)
   {
